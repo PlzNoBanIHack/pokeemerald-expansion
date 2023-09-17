@@ -233,7 +233,7 @@ static const union AnimCmd sAnim_GrudgeFlame[] =
     ANIMCMD_JUMP(0),
 };
 
-const union AnimCmd *const gAnims_GrudgeFlame[] =
+static const union AnimCmd *const sAnims_GrudgeFlame[] =
 {
     sAnim_GrudgeFlame,
 };
@@ -243,7 +243,7 @@ const struct SpriteTemplate gGrudgeFlameSpriteTemplate =
     .tileTag = ANIM_TAG_PURPLE_FLAME,
     .paletteTag = ANIM_TAG_PURPLE_FLAME,
     .oam = &gOamData_AffineOff_ObjBlend_16x32,
-    .anims = gAnims_GrudgeFlame,
+    .anims = sAnims_GrudgeFlame,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = AnimGrudgeFlame,

@@ -1187,11 +1187,11 @@
 	.byte 0xe5
 	.endm
 
-	.macro unused3
+	.macro doweatherformchangeanimation
 	.byte 0xe6
 	.endm
 
-	.macro unused4
+	.macro tryweatherformdatachange
 	.byte 0xe7
 	.endm
 
@@ -1379,12 +1379,6 @@
 	.macro checkparentalbondcounter counter:req, ptr:req
 	callnative BS_CheckParentalBondCounter
 	.byte \counter
-	.4byte \ptr
-	.endm
-	
-	.macro jumpifcantloseitem battler:req, ptr:req
-	callnative BS_JumpIfCantLoseItem
-	.byte \battler
 	.4byte \ptr
 	.endm
 
