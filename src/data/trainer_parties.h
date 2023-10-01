@@ -4203,11 +4203,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shelby5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Calvin1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Calvin1[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_POOCHYENA,
+    .species = SPECIES_FLETCHLING,
+    .moves = {MOVE_QUICK_ATTACK, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 5,
+    .species = SPECIES_YUNGOOS,
+    .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -4385,16 +4392,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Eddie[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Allen[] = {
+static const struct TrainerMonItemCustomMoves sParty_Allen[] = {
     {
-    .iv = 0,
-    .lvl = 4,
-    .species = SPECIES_ZIGZAGOON,
+    .iv = 10,
+    .lvl = 6,
+    .species = SPECIES_SKWOVET,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_STUFF_CHEEKS, MOVE_TACKLE, MOVE_NONE, MOVE_NONE}
     },
     {
-    .iv = 0,
-    .lvl = 3,
-    .species = SPECIES_TAILLOW,
+    .iv = 10,
+    .lvl = 6,
+    .species = SPECIES_WOOLOO,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_COTTON_GUARD, MOVE_COPYCAT, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -8147,16 +8158,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Crissy[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Rick[] = {
+static const struct TrainerMonItemCustomMoves sParty_Rick[] = {
     {
-    .iv = 0,
+    .iv = 10,
     .lvl = 4,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_SCATTERBUG,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_STRING_SHOT, MOVE_STUN_SPORE, MOVE_NONE, MOVE_NONE}
     },
     {
-    .iv = 0,
+    .iv = 10,
     .lvl = 4,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_GRUBBIN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_MUD_SLAP, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 10,
+    .lvl = 4,
+    .species = SPECIES_BLIPBUG,
+    .heldItem = ITEM_NONE;
+    .moves = {MOVE_STRUGGLE_BUG, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
