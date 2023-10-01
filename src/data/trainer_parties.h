@@ -8177,7 +8177,7 @@ static const struct TrainerMonItemCustomMoves sParty_Rick[] = {
     .iv = 10,
     .lvl = 4,
     .species = SPECIES_BLIPBUG,
-    .heldItem = ITEM_NONE;
+    .heldItem = ITEM_NONE,
     .moves = {MOVE_STRUGGLE_BUG, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
