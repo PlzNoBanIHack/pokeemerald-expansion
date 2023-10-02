@@ -986,19 +986,19 @@ static const struct InGameTrade sIngameTrades[] =
 {
     [INGAME_TRADE_SEEDOT] =
     {
-        .nickname = _("DOTS"),
-        .species = SPECIES_SEEDOT,
-        .ivs = {5, 4, 5, 4, 4, 4},
+        .nickname = _("Perugius"),
+        .species = SPECIES_HONEDGE,
+        .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 1,
         .otId = 38726,
         .conditions = {30, 5, 5, 5, 5},
         .personality = 0x84,
-        .heldItem = ITEM_CHESTO_BERRY,
+        .heldItem = ITEM_DUSK_STONE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_RALTS
+        .requestedSpecies = SPECIES_NICKIT
     },
     [INGAME_TRADE_PLUSLE] =
     {

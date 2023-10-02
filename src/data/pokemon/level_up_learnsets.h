@@ -13325,6 +13325,7 @@ static const struct LevelUpMove sFennekinLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 5, MOVE_EMBER),
+    LEVEL_UP_MOVE( 8, MOVE_CONFUSION),
     LEVEL_UP_MOVE(11, MOVE_HOWL),
     LEVEL_UP_MOVE(14, MOVE_FLAME_CHARGE),
     LEVEL_UP_MOVE(17, MOVE_PSYBEAM),
@@ -13843,7 +13844,7 @@ static const struct LevelUpMove sMeowsticLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sHonedgeLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_METAL_CLAW),
     LEVEL_UP_MOVE( 1, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE( 5, MOVE_FURY_CUTTER),
     LEVEL_UP_MOVE( 8, MOVE_METAL_SOUND),
